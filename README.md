@@ -19,7 +19,7 @@
 </p> <br>
 
 
-<h2 align="center"> CyberDefenders Write-up - KrankenKeylogger </h2>
+<h2 align="center"> CyberDefenders Write-up - KrakenKeylogger </h2>
 <h2 id="scenario"> Scenario </h2>
 <p> An employee at a large company was assigned a task with a two-day deadline. Realizing that he could not complete the task in that timeframe, he sought help from someone else. After one day, he received a notification from that person who informed him that he had managed to finish the assignment and sent it to the employee as a test. However, the person also sent a message to the employee stating that if he wanted the completed assignment, he would have to pay $160. </p>
 <p> The helper's demand for payment revealed that he was a threat actor. The company's digital forensics team was called in to investigate and identify the attacker, determine the extent of the attack, and assess potential data breaches. The team must analyze the employee's computer and communication logs to prevent similar attacks in the future. </p>
