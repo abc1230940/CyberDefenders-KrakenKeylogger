@@ -54,12 +54,12 @@
 <img width="1816" height="791" alt="Screenshot 2026-06-23 184429" src="https://github.com/user-attachments/assets/e7b0f23a-5d92-4711-827f-13cbf1042f8c" />
 <p> 42 out of 62 vendors flagged the lnk file as malicious. It was believed that Owen clicked the malcious lnk file. We can look at the Code Insights to learn how the malware functions. </p>
 <img width="1745" height="111" alt="Screenshot 2026-06-23 184606" src="https://github.com/user-attachments/assets/ec929a78-7fab-4ea0-89e1-0c65276853d8" />
-<p> When the malicious lnk file was clicked, powershell.exe was spawned to decode the obfuscated malicious script and downloaded the second payload from attacker server. The script also executed the second payload and then deleted it. </p>
+<p> When the malicious lnk file was clicked, powershell.exe was spawned to decode the obfuscated malicious script and downloaded the second payload from the attacker server. The script also executed the second payload and finally deleted it. </p>
 <img width="867" height="213" alt="Screenshot 2026-06-23 185141" src="https://github.com/user-attachments/assets/86316650-1adc-47dd-b586-92aa181249b0" />
-<p> when we navigated to the Relations section and looked at the contacted URLs, we can identify that the lnk file would reach out to a domain <strong>masherofmasters[.]cyou/</strong> to download se1.hta, which was believed as the second payload. </p>
+<p> when we navigated to the Relations section and looked at the contacted URLs, we can identify that the lnk file would reach out to a domain <strong>masherofmasters[.]cyou</strong> to download se1.hta, which was believed as the second payload. </p>
 <br>
 <p> <strong> 4. What is the name of the command that the attacker injected using one of the installed LOLAPPS on the machine to achieve persistence? </strong> </p>
-
+<p> This question took me very long time to think, </p>
 <p align="right">(<a href="#top">Back to Top</a>)</p>
 
 
