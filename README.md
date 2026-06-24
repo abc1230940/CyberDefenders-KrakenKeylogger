@@ -38,12 +38,12 @@
 
 
 <h2 id="questions"> Questions </h2>
-<p> <strong> 1. What is the the web messaging app the employee used to talk to the attacker? </strong> </p>
+<p> <strong> 1. What is the web messaging app the employee used to talk to the attacker? </strong> </p>
 <p> In order to identify the messaging app, we can navigate to <strong>\Users\OMEN\AppData\Local\Microsoft\Windows\Notifications</strong> and locate the wpndatabase.db file, which stores the Windows Push Notification if a message was received. We opened the database with DB Browser for SQLite and navigated to <strong>Browse Data -> Table: Notification</strong>. </p>
 <img width="1865" height="993" alt="Screenshot 2026-06-23 181911" src="https://github.com/user-attachments/assets/70db3acf-2d4b-445f-81f9-620509a11dc3" />
 <p> The most interesting row was the one with the group column Notifications, so I clicked the Payload for more details. </p>
 <img width="1565" height="356" alt="Screenshot 2026-06-23 182121" src="https://github.com/user-attachments/assets/1a44878b-a033-421b-aefc-2274c6600330" />
-<p> Based on the notification, there was a message from the social media <strong>Telegram</strong> send from a user Nawaf and the content was "📎 our project templet test.zip,pass:@1122d". </p>
+<p> Based on the notification, there was a message from <strong>Telegram</strong> sent from a user Nawaf and the content was "📎 our project templet test.zip,pass:@1122d". </p>
 <br>
 <p> <strong> 2. What is the password for the protected ZIP file sent by the attacker to the employee? </strong> </p>
 <p> Based on the message received, the password of "our project templet test.zip" was <strong>@1122d</strong>. </p>
@@ -105,7 +105,7 @@
 <p> <strong> 7. What is the IP address of the attacker?</strong> </p>
 <p> We navigated to the AnyDesk folder and opened the ad.trace file with Timeline Explorer, which contained the log data. </p> 
 <img width="1383" height="290" alt="Screenshot 2026-06-24 151221" src="https://github.com/user-attachments/assets/5073bbae-991b-42d5-978a-a0b6e6b09425" />
-<p> There was only 1 external IP address connected in the software, believed that 77[.]232[.]122[.]31 was the attacker IP address. </p>
+<p> There was only 1 external IP address connected in the software, believed that <strong>77[.]232[.]122[.]31</strong> was the attacker IP address. </p>
 <p align="right">(<a href="#top">Back to Top</a>)</p>
 
 
